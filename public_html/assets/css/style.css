@@ -1,0 +1,149 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background: url('../img/birds_tweeting.png') top center repeat-x #CAE1F2;	
+}
+
+h1 {
+	color: #0084B4;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 3rem;
+	color: #ffffff;
+}
+
+#site-header {
+	margin-top: 1rem;
+}
+
+	#recent-searches .panel {
+		background: #ffffff;
+	}
+	
+	#wordcloud .word {
+		display: inline-block;
+		color: #000000;
+		margin: 0px .25rem;	
+		font-weight: 300;
+	}
+	
+	#wordcloud a:hover {
+		text-decoration: underline;
+	}
+	
+	#wordcloud h1 {
+		font-size: 1.5rem;
+	}
+	
+	#wordcloud h2 {
+		font-size: 1.4rem;
+	}
+	
+	#wordcloud h3 {
+		font-size: 1.3rem;
+	}
+	
+	#wordcloud h4 {
+		font-size: 1.2rem
+	}
+	
+	#wordcloud h5 {
+		font-size: 1.1rem;
+	}
+	
+	#wordcloud h6 {
+		font-size: 1rem;
+	}
+
+#site-content {	
+}
+
+	#results {
+		display: none;
+	}
+	
+	#stats {
+		display: none;
+	}
+
+#site-footer p small {
+	color: #6F6F6F;
+}
+
+.tweets {	
+}
+
+	.tweet {
+		margin: 0;
+		padding: 0.9375rem 0;
+		float: left;
+		width: 100%;
+	}
+	
+	.tweet:hover {
+		box-shadow: 0px 0px 6px 1px rgba(0, 140, 186, 0.5);
+		
+	}
+	
+	.tweet h4,
+	.tweet h4 a {
+		font-size: 1rem;
+		margin: 0;
+	}
+	
+	.tweet h4 small {
+		font-size: 80%;	
+	}
+	
+	.tweet p {
+		margin: 0;
+		font-size: 0.9rem;
+	}
+	
+	.tweet .inline-list {
+		margin: 0px 0px 0px -1.375rem;
+	}
+	
+	.tweet .inline-list a {
+		font-size: 0.8rem;
+		color: #6F6F6F;
+	}
+	
+	.tweet-profile-image {
+	}
+	
+	.tweet-text {	
+	}
+
+.panel {
+	background: #F9F9F9;
+}
+
+	.panel h1 {
+		color: #F08A24;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	
+	.panel h2 {
+		color: #666;
+		font-weight: 300;
+		margin: 0;
+	}
+	
+	.panel h3 {
+		color: #666;
+		font-weight: 300;
+		font-size: 1.4rem;
+		margin: 0;
+	}
+	
+	.panel h4 {
+		color: #666;
+		font-weight: 300;
+		font-size: 1.2rem;
+		margin: 0;
+	}
